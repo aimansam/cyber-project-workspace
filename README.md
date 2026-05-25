@@ -81,6 +81,12 @@ cyber-project-workspace/
 
 The workspace repo tracks shared structure, docs, and automation. Individual project folders are ignored by the workspace repo so they can each have their own GitHub repository.
 
+Use the all-in-one menu for common actions:
+
+```bash
+./menu.sh
+```
+
 Create a new red-team project with:
 
 ```bash

@@ -19,6 +19,16 @@ Use this area for helper scripts that support authorized testing, evidence proce
 
 ## Current Scripts
 
+### `cyber-menu.sh`
+
+Interactive all-in-one menu for common workspace actions.
+
+```bash
+./menu.sh
+```
+
+Menu options include creating red-team or blue-team project repos, listing project repos, checking status, setting project GitHub remotes, and committing/pushing workspace or project repos.
+
 ### `create-red-team-project.sh`
 
 Creates a new red-team project as an independent Git repository under `project/red-team/`.
