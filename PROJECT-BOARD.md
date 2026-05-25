@@ -11,7 +11,7 @@ Use this board to keep red-team, blue-team, and lab work moving together.
 | RT-003 | Red Team | Start Rubber Ducky HID lab project | Active | Standalone repo under `project/red-team/rubber-ducky/`; use `scope.md` before testing. |
 | BT-001 | Blue Team | Choose SIEM/log platform for lab | Backlog | Start with one platform. |
 | BT-002 | Blue Team | Define detection metadata schema | Backlog | Align with `project/blue-team/README.md`. |
-| BT-003 | Blue Team | Start USB HID Detection companion project | Active | Standalone repo under `project/blue-team/usb-hid-detection/`; pair with Rubber Ducky lab. |
+| BT-003 | Blue Team | Add USB HID Detection inside Rubber Ducky repo | Active | Integrated under `project/red-team/rubber-ducky/blue-team/usb-hid-detection/`. |
 | LAB-001 | Shared | Create isolated lab network plan | Backlog | Use `docs/lab-architecture.md`. |
 | REP-001 | Shared | Create reusable report template | Backlog | Include severity, impact, and remediation. |
 | BLOG-001 | Blog | Turn lab kickoff notes into first post | Backlog | Use `blog/drafts/2026-05-25-workspace-kickoff.md`. |
@@ -21,8 +21,8 @@ Use this board to keep red-team, blue-team, and lab work moving together.
 
 | ID | Owner | Current Step | Blockers |
 | --- | --- | --- | --- |
-| RT-003 | zx10r8443 | Initialize/push dedicated project repo and fill in lab scope | Project remote needed before push |
-| BT-003 | zx10r8443 | Create GitHub repo and push standalone blue-team project | Project remote needed before push |
+| RT-003 | zx10r8443 | Fill in lab scope and run Mode 0, Mode 2, then Mode 1 | Scope must be completed before testing |
+| BT-003 | zx10r8443 | Validate Pi Pico USB/HID logs and optional sanitized Discord alerts | Use Rubber Ducky repo, no separate GitHub repo needed |
 
 ## Done
 
