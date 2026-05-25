@@ -19,7 +19,7 @@ if [[ -z "$slug" ]]; then
   exit 1
 fi
 
-project_dir="$workspace_root/red-team/$slug"
+project_dir="$workspace_root/project/red-team/$slug"
 
 if [[ -e "$project_dir" ]]; then
   printf 'Project already exists: %s\n' "$project_dir" >&2

@@ -12,8 +12,8 @@ This workspace is organized around a simple idea: offensive testing and defensiv
 
 ## Structure
 
-- `red-team/` holds authorized offensive workflows and lab exercises.
-- `blue-team/` holds detections, response playbooks, and monitoring notes.
+- `project/red-team/` holds authorized offensive workflows and lab exercises.
+- `project/blue-team/` holds detections, response playbooks, and monitoring notes.
 - `docs/` holds scope, rules of engagement, and lab architecture.
 - `evidence/` holds raw artifacts that should stay private by default.
 - `reports/` holds sanitized findings and summaries.

@@ -5,7 +5,7 @@ Use this area for authorized offensive security work and controlled lab exercise
 ## Project Folder Pattern
 
 ```text
-red-team/
+project/red-team/
   project-name/
     scope.md
     recon.md
@@ -34,6 +34,6 @@ red-team/
 
 ## Evidence Rules
 
-- Store raw tool output in `evidence/red-team/`.
+- Store raw tool output inside the project repo under `evidence/`.
 - Store polished findings in `reports/`.
 - Redact tokens, cookies, API keys, emails, phone numbers, and personal identifiers before sharing.

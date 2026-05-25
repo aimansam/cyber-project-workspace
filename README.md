@@ -11,8 +11,8 @@ cyber-project-workspace/
   docs/                 Planning, scope, lab design, and operating notes
   blog/                 Public-safe writeups, drafts, and post templates
   assets/images/        Diagrams, screenshots cleared for sharing, and blog images
-  red-team/             Authorized offensive security projects, each as its own repo
-  blue-team/            Defensive monitoring projects, each as its own repo when needed
+  project/red-team/     Authorized offensive projects, each as its own repo
+  project/blue-team/    Defensive projects, each as its own repo when needed
   shared/               Shared assets, inventories, data schemas, and references
   evidence/             Screenshots, logs, exports, packet captures, and raw findings
   reports/              Draft and final reports
@@ -62,7 +62,7 @@ cyber-project-workspace/
 ## Operating Rhythm
 
 1. Define scope in `docs/rules-of-engagement.md`.
-2. Create a standalone project repo under `red-team/` or `blue-team/`.
+2. Create a standalone project repo under `project/red-team/` or `project/blue-team/`.
 3. Record assumptions, targets, credentials handling notes, and test windows before action.
 4. Store raw outputs in `evidence/` and sanitized summaries in `reports/`.
 5. Convert useful defensive learnings into detections, queries, or hardening tasks.
@@ -87,8 +87,15 @@ Create a new red-team project with:
 ./scripts/create-red-team-project.sh "Project Name"
 ```
 
-Or create it and push to a dedicated GitHub repo:
+Create a new blue-team project with:
+
+```bash
+./scripts/create-blue-team-project.sh "Project Name"
+```
+
+Or create a project and push it to a dedicated GitHub repo:
 
 ```bash
 ./scripts/create-red-team-project.sh "Project Name" https://github.com/USER/PROJECT.git
+./scripts/create-blue-team-project.sh "Project Name" https://github.com/USER/PROJECT.git
 ```

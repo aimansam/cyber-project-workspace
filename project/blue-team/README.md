@@ -5,7 +5,7 @@ Use this area for monitoring, detection engineering, incident response, and hard
 ## Project Folder Pattern
 
 ```text
-blue-team/
+project/blue-team/
   project-name/
     objective.md
     data-sources.md

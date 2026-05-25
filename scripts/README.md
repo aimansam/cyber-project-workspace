@@ -21,11 +21,20 @@ Use this area for helper scripts that support authorized testing, evidence proce
 
 ### `create-red-team-project.sh`
 
-Creates a new red-team project as an independent Git repository under `red-team/`.
+Creates a new red-team project as an independent Git repository under `project/red-team/`.
 
 ```bash
 ./scripts/create-red-team-project.sh "Project Name"
 ./scripts/create-red-team-project.sh "Project Name" https://github.com/USER/PROJECT.git
+```
+
+### `create-blue-team-project.sh`
+
+Creates a new blue-team project as an independent Git repository under `project/blue-team/`.
+
+```bash
+./scripts/create-blue-team-project.sh "Project Name"
+./scripts/create-blue-team-project.sh "Project Name" https://github.com/USER/PROJECT.git
 ```
 
 The parent workspace `.gitignore` excludes project folders, so each project can be pushed to its own GitHub repository.

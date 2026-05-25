@@ -17,10 +17,10 @@ evidence/**/*.tar
 evidence/**/*.gz
 
 # Project repositories live inside the workspace but are not tracked by this repo
-red-team/*
-!red-team/README.md
-blue-team/*
-!blue-team/README.md
+project/red-team/*
+!project/red-team/README.md
+project/blue-team/*
+!project/blue-team/README.md
 
 # Project-specific evidence and reports belong in each project repo
 evidence/red-team/*
