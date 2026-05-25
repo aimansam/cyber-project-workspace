@@ -1,0 +1,25 @@
+# Secrets and local environment
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+
+# Large or sensitive evidence artifacts
+evidence/**/*.pcap
+evidence/**/*.pcapng
+evidence/**/*.har
+evidence/**/*.zip
+evidence/**/*.7z
+evidence/**/*.tar
+evidence/**/*.gz
+
+# Python/cache/editor noise
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
