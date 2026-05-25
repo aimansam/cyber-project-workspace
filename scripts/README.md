@@ -16,3 +16,16 @@ Use this area for helper scripts that support authorized testing, evidence proce
 - Report finding formatter.
 - Lab snapshot checklist generator.
 - Detection validation runner for local sample logs.
+
+## Current Scripts
+
+### `create-red-team-project.sh`
+
+Creates a new red-team project as an independent Git repository under `red-team/`.
+
+```bash
+./scripts/create-red-team-project.sh "Project Name"
+./scripts/create-red-team-project.sh "Project Name" https://github.com/USER/PROJECT.git
+```
+
+The parent workspace `.gitignore` excludes project folders, so each project can be pushed to its own GitHub repository.
